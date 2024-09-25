@@ -1,0 +1,35 @@
+/* Research.css */
+.research {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .research h2 {
+    margin-bottom: 20px;
+  }
+  
+  .research p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+  
+  .research-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .research .card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 45%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .research .card h3 {
+    margin-top: 0;
+  }
+  

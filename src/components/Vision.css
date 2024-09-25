@@ -1,0 +1,27 @@
+/* Vision.css */
+.vision {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .vision h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .vision .vision-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+  }
+  

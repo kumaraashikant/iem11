@@ -1,0 +1,48 @@
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px ;
+}
+.container1 {
+  display: flex;
+  justify-content: flex-start; /* Aligns the content to the left */
+  align-items: center; /* Centers vertically (if needed) */
+}
+
+
+.social-links {
+  list-style: none;
+  padding: 0;
+
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 10px; /* Space between columns */
+}
+
+.column-left, .column-right {
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.column-left {
+  background-color: lightblue;
+}
+
+.column-right {
+  background-color: lightgreen;
+}
+
